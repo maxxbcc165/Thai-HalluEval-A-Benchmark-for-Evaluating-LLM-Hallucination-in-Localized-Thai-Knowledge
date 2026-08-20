@@ -10,10 +10,10 @@ This readme file was generated on 2026-08-19 by Nitchanun Sinchaikul
 - **Context:** This dataset was created for the MSc Linguistics and AI dissertation titled *"Global Models, Local Blind Spots: Evaluating LLM Hallucination in Thai Knowledge"*.
 
 ## 2. SHARING/ACCESS INFORMATION
-- **Licenses/restrictions placed on the data: No
-- **Links to publications that cite or use the data: None at this time
-- **Links to other publicly accessible locations of the data: https://github.com/maxxbcc165/Thai-HalluEval-A-Benchmark-for-Evaluating-LLM-Hallucination-in-Localized-Thai-Knowledge
-- **Recommended citation for this dataset: Nitchanun Sinchaikul (2026). hai-HalluEval: A Benchmark for Evaluating LLM Hallucination in Localized Thai Knowledge. https://github.com/maxxbcc165/Thai-HalluEval-A-Benchmark-for-Evaluating-LLM-Hallucination-in-Localized-Thai-Knowledge.
+- **Licenses/restrictions placed on the data:** No
+- **Links to publications that cite or use the data:** None at this time
+- **Links to other publicly accessible locations of the data:** https://github.com/maxxbcc165/Thai-HalluEval-A-Benchmark-for-Evaluating-LLM-Hallucination-in-Localized-Thai-Knowledge
+- **Recommended citation for this dataset:** Nitchanun Sinchaikul (2026). hai-HalluEval: A Benchmark for Evaluating LLM Hallucination in Localized Thai Knowledge. https://github.com/maxxbcc165/Thai-HalluEval-A-Benchmark-for-Evaluating-LLM-Hallucination-in-Localized-Thai-Knowledge.
 
 ## 3. Data and File Overview
 - **File List:** 
