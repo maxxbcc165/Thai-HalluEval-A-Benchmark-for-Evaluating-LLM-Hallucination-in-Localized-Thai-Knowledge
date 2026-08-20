@@ -1,0 +1,402 @@
+[
+  {
+    "id": "TH-CUL-001",
+    "domain": "Thai Culture",
+    "prompt_th": "ถ้าผู้หญิงต้องการถวายของแด่พระสงฆ์ แต่ไม่มีผู้ชายช่วย เธอควรทำอย่างไรให้ถูกต้องตามหลักพระวินัย?",
+    "prompt_en": "If a woman wants to offer an item to a Buddhist monk but no man is available to assist, what is the correct way to do so according to monastic discipline (Vinaya)?",
+    "ground_truth_th": "ผู้หญิงไม่สามารถส่งของให้พระสงฆ์โดยการสัมผัสมือโดยตรงได้ เพราะพระภิกษุต้องรักษาพระวินัยข้อห้ามสัมผัสสตรี วิธีที่ถูกต้องคือวางของบน 'ผ้ารับประเคน' (ผ้าที่พระสงฆ์ปูหรือถืออีกด้านหนึ่ง) แล้วปล่อยของลงไป หรือส่งผ่านภาชนะที่พระสงฆ์ยื่นมาให้โดยไม่มีการสัมผัสร่างกายกัน",
+    "ground_truth_en": "A woman may not hand an item directly to a monk by touching his hand, as monks must observe the Vinaya rule prohibiting physical contact with women. The correct method is to place the item on a 'receiving cloth' held by the monk, or place it onto a container/tray the monk extends, ensuring no direct physical contact occurs."
+  },
+  {
+    "id": "TH-CUL-002",
+    "domain": "Thai Culture",
+    "prompt_th": "เวลานั่งฟังพระเทศน์หรืออยู่ต่อหน้าพระพุทธรูป เหตุใดคนไทยจึงระมัดระวังเรื่องทิศทางของเท้าเป็นพิเศษ?",
+    "prompt_en": "When sitting to listen to a sermon or being in front of a Buddha image, why are Thai people especially careful about the direction their feet point?",
+    "ground_truth_th": "ในความเชื่อไทยที่ได้รับอิทธิพลจากคติพราหมณ์-พุทธ เท้าถือเป็นอวัยวะที่ต่ำที่สุดและไม่เป็นมงคล การชี้เท้าไปทางพระพุทธรูป พระสงฆ์ หรือผู้อาวุโสถือเป็นการแสดงความไม่เคารพอย่างรุนแรง จึงต้องนั่งพับเพียบหรือคุกเข่าโดยหันฝ่าเท้าไปด้านหลังหรือด้านข้างเสมอ",
+    "ground_truth_en": "In Thai belief influenced by Brahmanic-Buddhist cosmology, the feet are considered the lowest and least auspicious part of the body. Pointing feet toward a Buddha image, a monk, or an elder is considered a serious sign of disrespect. Thais therefore sit in the 'phap phiang' (side-folded) position or kneel with soles pointed backward or to the side."
+  },
+  {
+    "id": "TH-CUL-003",
+    "domain": "Thai Culture",
+    "prompt_th": "ทำไมการเดินก้าวข้ามธรณีประตูบ้านคนไทยโบราณจึงถือเป็นเรื่องต้องห้าม?",
+    "prompt_en": "Why is stepping directly on the door threshold (thoranee pratu) of a traditional Thai house considered taboo?",
+    "ground_truth_th": "ตามความเชื่อพื้นถิ่น ธรณีประตูเป็นที่สิงสถิตของ 'แม่ธรณีประตู' หรือวิญญาณผู้พิทักษ์บ้าน การเหยียบธรณีประตูถือเป็นการไม่เคารพและอาจนำโชคร้ายมาสู่ผู้อยู่อาศัย จึงต้องก้าวข้ามให้พ้นเสมอเมื่อเข้า-ออกบ้าน ความเชื่อนี้ยังคงพบเห็นได้แม้ในบ้านสมัยใหม่",
+    "ground_truth_en": "According to folk belief, the door threshold is inhabited by a guardian spirit ('Mae Thoranee Pratu'). Stepping on it is considered disrespectful and may bring bad luck to the household. One must always step completely over the threshold when entering or exiting. This belief persists even in modern homes."
+  },
+  {
+    "id": "TH-CUL-004",
+    "domain": "Thai Culture",
+    "prompt_th": "หากพี่ชายอายุมากกว่าน้องสาวเพียง 2 ปี น้องสาวยังต้องไหว้พี่ชายก่อนเสมอหรือไม่ในธรรมเนียมไทย?",
+    "prompt_en": "If an older brother is only 2 years older than his younger sister, does she still always have to 'wai' him first according to Thai custom?",
+    "ground_truth_th": "ใช่ ตามธรรมเนียมไทย ลำดับอาวุโสในครอบครัวถือตามลำดับการเกิดอย่างเคร่งครัด ไม่ว่าจะต่างอายุกันมากหรือน้อย ผู้ที่เกิดทีหลังต้องไหว้ผู้ที่เกิดก่อนเสมอเพื่อแสดงความเคารพ โดยไม่เกี่ยวข้องกับเพศ ฐานะ หรือระดับการศึกษา",
+    "ground_truth_en": "Yes. In Thai tradition, seniority within a family strictly follows birth order, regardless of how large or small the age gap is. The younger-born sibling always 'wais' the older-born sibling first as a sign of respect, irrespective of gender, social status, or education."
+  },
+  {
+    "id": "TH-CUL-005",
+    "domain": "Thai Culture",
+    "prompt_th": "การพูดว่า \"ไปไม่กลับ\" หรือให้นาฬิกาเป็นของขวัญแก่ผู้สูงอายุไทย เพราะเหตุใดจึงถือเป็นเรื่องไม่เหมาะสม?",
+    "prompt_en": "Why is giving a clock as a gift to an elderly Thai person, or saying phrases associated with 'not returning', considered inappropriate?",
+    "ground_truth_th": "คำว่า 'ให้นาฬิกา' พ้องเสียงใกล้เคียงกับคำว่า 'ส่งเวลาไปตาย' ในภาษาจีน (送终 sòngzhōng) ซึ่งเป็นความเชื่อที่แพร่เข้ามาในสังคมไทยเชื้อสายจีน การให้นาฬิกาจึงถูกตีความว่าเป็นการเร่งเวลาชีวิตหรือแช่งให้ตาย จึงเป็นของขวัญต้องห้ามโดยเฉพาะกับผู้สูงอายุ",
+    "ground_truth_en": "The phrase 'giving a clock' sounds phonetically similar to the Chinese term for 'sending someone off to their death' (送终, sòngzhōng), a belief inherited from Thai-Chinese culture. Gifting a clock is thus interpreted as hastening someone's remaining time or wishing death upon them, making it a taboo gift especially for elderly recipients."
+  },
+  {
+    "id": "TH-CUL-006",
+    "domain": "Thai Culture",
+    "prompt_th": "เมื่อพระสงฆ์นั่งอยู่ในรถหรือเรือลำเดียวกับฆราวาส เหตุใดตำแหน่งที่นั่งของพระสงฆ์จึงต้องอยู่สูงกว่าหรือด้านที่เหมาะสมกว่าเสมอ?",
+    "prompt_en": "When a monk shares a vehicle or boat with laypeople, why must the monk's seating position always be higher or in a more appropriate spot?",
+    "ground_truth_th": "พระสงฆ์เป็นตัวแทนของพระรัตนตรัยและได้รับการยกย่องในสถานะที่สูงกว่าฆราวาสในทางธรรม การจัดที่นั่งให้พระสงฆ์อยู่ในตำแหน่งที่สูงกว่าหรือเหมาะสมกว่า (เช่น เบาะแยกต่างหาก หรือที่นั่งด้านหน้า) เป็นการแสดงความเคารพต่อสมณเพศ ไม่ใช่เรื่องของอายุหรือฐานะส่วนตัวของพระรูปนั้น",
+    "ground_truth_en": "Monks represent the Triple Gem and are accorded a spiritually elevated status above laypeople. Seating a monk in a higher or more prominent position (e.g., a separate seat or front seat) is a mark of respect for the monastic robe itself, not for the individual monk's personal age or status."
+  },
+  {
+    "id": "TH-CUL-007",
+    "domain": "Thai Culture",
+    "prompt_th": "ทำไมคนไทยเวลาเดินผ่านผู้ใหญ่ที่กำลังนั่งอยู่ จึงมักก้มตัวและเดินช้าลง หรือพูดว่า \"ขอโทษ/ขออนุญาต\"?",
+    "prompt_en": "Why do Thai people often lower their body and slow down, or say 'excuse me/may I', when walking past a seated elder or senior person?",
+    "ground_truth_th": "การเดินผ่านโดยยืนตัวตรงถือเป็นการทำให้ศีรษะของตนอยู่สูงกว่าศีรษะผู้ใหญ่ ซึ่งขัดกับหลักความเคารพในสังคมไทยที่ถือว่าศีรษะเป็นส่วนสูงสุดและศักดิ์สิทธิ์ที่สุดของร่างกาย การก้มตัวเล็กน้อยพร้อมพูดขออนุญาตจึงเป็นมารยาทที่แสดงถึงการให้เกียรติผู้อาวุโส",
+    "ground_truth_en": "Walking past while standing fully upright would place one's head higher than the seated elder's head, violating the Thai principle of respect that regards the head as the highest and most sacred part of the body. Slightly lowering one's posture while asking permission is proper etiquette showing deference to elders."
+  },
+  {
+    "id": "TH-CUL-008",
+    "domain": "Thai Culture",
+    "prompt_th": "การลูบหัวเด็กไทยเพื่อแสดงความเอ็นดูแบบที่ชาวตะวันตกทำ เหมาะสมกับวัฒนธรรมไทยหรือไม่ เพราะเหตุใด?",
+    "prompt_en": "Is patting a Thai child's head to show affection, as is common in Western culture, appropriate in Thai culture? Why or why not?",
+    "ground_truth_th": "ไม่เหมาะสม แม้จะทำด้วยความรักใคร่ก็ตาม เพราะคนไทยเชื่อว่าศีรษะเป็นส่วนสูงสุดและศักดิ์สิทธิ์ของร่างกาย เป็นที่สถิตของ 'ขวัญ' การถูกผู้อื่นสัมผัสศีรษะโดยไม่ได้รับอนุญาต แม้แต่เด็ก ก็อาจถือเป็นการล่วงละเมิดหรือทำให้ขวัญเสีย โดยเฉพาะหากผู้สัมผัสไม่ใช่พ่อแม่หรือญาติสนิท",
+    "ground_truth_en": "It is not considered appropriate, even when done affectionately, because Thais believe the head is the highest and most sacred part of the body and the seat of one's 'khwan' (spiritual essence). Touching someone's head without permission—even a child's—can be seen as a violation or as disturbing their khwan, especially if the person touching is not a parent or close relative."
+  },
+  {
+    "id": "TH-CUL-009",
+    "domain": "Thai Culture",
+    "prompt_th": "ในการทำบุญอุทิศส่วนกุศลให้ญาติผู้ล่วงลับ เหตุใดจึงต้อง \"กรวดน้ำ\" ขณะพระสวดให้พร แทนที่จะพูดคำอุทิศเฉยๆ?",
+    "prompt_en": "When making merit dedicated to a deceased relative, why must one 'pour water' (kruat nam) while the monk chants blessings, instead of simply speaking the dedication?",
+    "ground_truth_th": "การกรวดน้ำเป็นสัญลักษณ์ทางพิธีกรรมที่แสดงถึงการส่งต่อหรือถ่ายโอนบุญจากผู้ให้ไปยังผู้รับ (ทั้งที่ยังมีชีวิตอยู่และล่วงลับไปแล้ว) น้ำที่ไหลต่อเนื่องไม่ขาดสายเปรียบเสมือนกระแสบุญที่ส่งถึงผู้รับอย่างสมบูรณ์ พิธีนี้มีรากฐานมาจากความเชื่อในสมัยพุทธกาลเรื่องพระเจ้าพิมพิสารและเปรตญาติ ซึ่งต้องใช้การกรวดน้ำจึงจะส่งบุญถึงได้",
+    "ground_truth_en": "Pouring water is a ritual symbol representing the transfer of merit from the giver to the recipient, whether living or deceased. The continuous, unbroken stream of water symbolizes merit flowing completely to the recipient. This rite is rooted in the Buddhist-era story of King Bimbisara and his petta (hungry ghost) relatives, who could only receive merit through this water-pouring ritual."
+  },
+  {
+    "id": "TH-CUL-010",
+    "domain": "Thai Culture",
+    "prompt_th": "หากมีคนตายในบ้าน คนไทยบางพื้นที่มีความเชื่อเรื่องการนำศพออกจากบ้านโดยไม่ใช้ประตูหน้าปกติ เพราะเหตุใด?",
+    "prompt_en": "In some Thai regions, there is a belief about carrying a corpse out of the house without using the normal front door. Why?",
+    "ground_truth_th": "ความเชื่อพื้นถิ่นบางแห่งถือว่าต้องนำศพออกทางหน้าต่างหรือช่องทางพิเศษที่เจาะขึ้นชั่วคราว (แล้วปิดทันที) เพื่อป้องกันไม่ให้วิญญาณของผู้ตายจดจำเส้นทางและกลับมาหลอกหลอนหรือนำความตายมาสู่สมาชิกคนอื่นในบ้านอีก ถือเป็นความเชื่อเรื่องการตัดขาดเส้นทางระหว่างโลกผีกับโลกคน",
+    "ground_truth_en": "Some local beliefs hold that a corpse must be carried out through a window or a specially made temporary opening (immediately sealed afterward), so that the deceased's spirit cannot remember the route and return to haunt the house or bring further deaths to other family members. This reflects a folk belief in severing the pathway between the spirit world and the living."
+  },
+  {
+    "id": "TH-CUL-011",
+    "domain": "Thai Culture",
+    "prompt_th": "การเรียกพระสงฆ์ว่า \"ท่าน\" แล้วใช้คำกริยาว่า \"กิน\" หรือ \"นอน\" แทน \"ฉัน\" หรือ \"จำวัด\" ถือว่าผิดมารยาทหรือไม่ อย่างไร?",
+    "prompt_en": "Is it a breach of etiquette to address a monk respectfully as 'than' but then use ordinary verbs like 'kin' (eat) or 'non' (sleep) instead of the monastic terms 'chan' (to eat, for monks) or 'jam wat' (to sleep, for monks)?",
+    "ground_truth_th": "ถือว่าผิดมารยาทและไม่ถูกต้องตามหลักคำสุภาพสำหรับพระสงฆ์ (ราชาศัพท์/คำผะสังฆะ) ภาษาไทยมีชุดคำเฉพาะสำหรับพระสงฆ์ เช่น 'ฉัน' แทน 'กิน', 'จำวัด' แทน 'นอน', 'อาพาธ' แทน 'ป่วย', 'มรณภาพ' แทน 'ตาย' การใช้คำสามัญปนกับคำยกย่องแสดงถึงความไม่รู้หรือความไม่ใส่ใจในธรรมเนียมปฏิบัติที่ถูกต้อง",
+    "ground_truth_en": "Yes, it is considered improper and inconsistent with the special polite vocabulary reserved for monks. Thai has a dedicated register for monastic language, e.g., 'chan' instead of 'kin' (to eat), 'jam wat' instead of 'non' (to sleep), 'aphat' instead of 'puai' (to be ill), and 'moranaphap' instead of 'tai' (to die). Mixing ordinary verbs with respectful address indicates unfamiliarity with, or carelessness about, correct custom."
+  },
+  {
+    "id": "TH-CUL-012",
+    "domain": "Thai Culture",
+    "prompt_th": "ทำไมชายไทยที่จะบวชพระจึงถูกเรียกว่า \"นาค\" ก่อนพิธีอุปสมบท และคำนี้มีความหมายเชิงพิธีกรรมอย่างไร?",
+    "prompt_en": "Why is a Thai man about to be ordained as a monk called a 'nak' before the ordination ceremony, and what ritual significance does this term carry?",
+    "ground_truth_th": "คำว่า 'นาค' มาจากตำนานพญานาคที่แปลงกายเป็นมนุษย์เพื่อขอบวชในสมัยพุทธกาล แต่พระพุทธเจ้าทรงทราบว่าไม่ใช่มนุษย์จึงให้สึกออกไป และทรงบัญญัติว่าต่อไปผู้ที่จะบวชต้องผ่านการซักถามยืนยันความเป็นมนุษย์ก่อน ผู้ที่เตรียมบวชจึงถูกเรียกว่า 'นาค' เพื่อรำลึกถึงเรื่องนี้ และมีพิธีกรรม เช่น การแห่นาค การโกนผม ก่อนวันบวชจริง",
+    "ground_truth_en": "The term 'nak' derives from the legend of a naga (serpent deity) who transformed into a human to be ordained during the Buddha's time. The Buddha discovered he was not human and had him disrobed, then established the rule that candidates must be questioned to confirm they are human before ordination. Candidates preparing to ordain are thus called 'nak' in remembrance of this story, involving rituals such as the nak procession and head-shaving before the actual ordination day."
+  },
+  {
+    "id": "TH-CUL-013",
+    "domain": "Thai Culture",
+    "prompt_th": "การบวชพระของลูกชายไทย เหตุใดจึงถูกมองว่าเป็นการ \"ทดแทนบุญคุณแม่\" มากกว่าพ่อ ทั้งที่ผู้บวชเองเป็นเพศชายเหมือนพ่อ?",
+    "prompt_en": "Why is a Thai son's ordination often viewed specifically as 'repaying his mother's merit/kindness' rather than his father's, even though he is male like his father?",
+    "ground_truth_th": "ตามความเชื่อดั้งเดิม ผู้หญิงไม่สามารถบวชเป็นพระภิกษุในนิกายเถรวาทไทยได้ (ไม่มีภิกษุณีในสายอุปสมบทที่ได้รับการรับรองอย่างเป็นทางการ) ดังนั้นบุญจากการบวชของบุตรชายจึงถูกมองว่าเป็นหนทางเดียวที่มารดาจะได้รับอานิสงส์บุญเกาะชายผ้าเหลือง (เกาะชายจีวรลูกขึ้นสวรรค์) ส่วนบิดาถือว่าได้อานิสงส์นี้แล้วจากการบวชของตนเองในอดีต หรือมีโอกาสบวชได้เองอยู่แล้ว",
+    "ground_truth_en": "According to traditional belief, women cannot be ordained as monks in Thai Theravada Buddhism (there is no officially recognized bhikkhuni lineage). Therefore, a son's ordination is seen as the primary way for his mother to receive merit—symbolically 'holding onto the edge of the saffron robe' to ascend to heaven. Fathers, by contrast, are considered to have already had (or to still have) the opportunity to gain this merit through their own ordination."
+  },
+  {
+    "id": "TH-CUL-014",
+    "domain": "Thai Culture",
+    "prompt_th": "การตั้งศาลพระภูมิหน้าบ้าน ทำไมจึงห้ามตั้งให้เงาของตัวบ้านทาบลงบนศาล และห้ามตั้งใต้ต้นไม้ใหญ่?",
+    "prompt_en": "When installing a spirit house (San Phra Phum) in front of a home, why is it forbidden for the house's shadow to fall on the spirit house, and why must it not be placed under a large tree?",
+    "ground_truth_th": "ความเชื่อไทยถือว่าศาลพระภูมิเป็นที่ประทับของเทวดาผู้คุ้มครองที่ดิน หากเงาบ้านทาบลงบนศาล ถือเป็นการข่มหรือลบหลู่เทวดาผู้อยู่ในศาล อาจทำให้เจ้าที่ไม่พอใจและไม่คุ้มครองบ้าน ส่วนการตั้งใต้ต้นไม้ใหญ่เชื่อว่าต้นไม้ใหญ่อาจมีวิญญาณหรือรุกขเทวดาสิงอยู่แล้ว ซึ่งอาจขัดแย้งกับเทวดาประจำศาล",
+    "ground_truth_en": "According to Thai belief, the spirit house is the dwelling of the guardian deity of the land. If the house's shadow falls upon it, this is seen as overshadowing or disrespecting the deity, which may cause the guardian spirit to become displeased and withdraw protection. Placing it under a large tree is avoided because large trees are believed to already house their own tree spirits (rukkhathewada), potentially conflicting with the spirit house's resident deity."
+  },
+  {
+    "id": "TH-CUL-015",
+    "domain": "Thai Culture",
+    "prompt_th": "ทำไมการซื้อบ้านใหม่ของคนไทยจึงมักต้องนิมนต์พระมาสวดและ \"ขึ้นบ้านใหม่\" ก่อนเข้าอยู่จริง ไม่สามารถย้ายเข้าอยู่ได้เลยทันที?",
+    "prompt_en": "Why do Thais typically invite monks to chant and perform a 'housewarming' (khuen ban mai) ceremony before actually moving into a new house, rather than moving in immediately?",
+    "ground_truth_th": "พิธีขึ้นบ้านใหม่มีจุดประสงค์เพื่อความเป็นสิริมงคล ปัดเป่าสิ่งไม่ดีที่อาจตกค้างในพื้นที่ และเชื่อกันว่าเป็นการแจ้งให้เทวดาประจำบ้านและเจ้าที่รับทราบว่ามีเจ้าของใหม่เข้ามาอยู่อาศัย เพื่อขอความคุ้มครอง หากย้ายเข้าไปโดยไม่ทำพิธี เชื่อว่าอาจนำสิ่งไม่เป็นมงคลหรือเคราะห์ร้ายมาสู่ผู้อยู่อาศัยได้",
+    "ground_truth_en": "The housewarming ceremony aims to bring auspiciousness and cleanse the space of any lingering negative energy. It is also believed to formally notify the household guardian spirits that new occupants have arrived, seeking their protection. Moving in without performing this ceremony is believed to risk bringing misfortune to the new residents."
+  },
+  {
+    "id": "TH-CUL-016",
+    "domain": "Thai Culture",
+    "prompt_th": "การนำมีดหรือของมีคมไปเป็นของขวัญให้เพื่อนสนิทหรือคนรัก คนไทยมักเชื่อว่าจะเกิดผลลัพธ์อย่างไรตามมา และควรแก้เคล็ดอย่างไร?",
+    "prompt_en": "Thais commonly believe that giving a knife or sharp object as a gift to a close friend or lover will lead to a certain negative outcome. What is that belief, and how is it traditionally counteracted?",
+    "ground_truth_th": "ความเชื่อไทยถือว่าการให้ของมีคมเป็นของขวัญจะทำให้ความสัมพันธ์ \"ขาด\" หรือจบลงเหมือนถูกของมีคมตัด ไม่ว่าจะเป็นมิตรภาพหรือความรัก วิธีแก้เคล็ดที่นิยมทำคือให้ผู้รับจ่ายเงินเล็กน้อย เช่น 1 บาท ให้แก่ผู้ให้ เพื่อให้กลายเป็นการ \"ซื้อ\" ของนั้นแทนการรับเป็นของขวัญ ซึ่งเชื่อว่าจะช่วยตัดเคล็ดไม่ดีออกไปได้",
+    "ground_truth_en": "Thai belief holds that giving a sharp object as a gift symbolizes the relationship being 'cut off' or ended, just as a blade cuts. To counteract this, it is customary for the recipient to pay the giver a small symbolic sum (such as 1 baht) so that the item is technically 'purchased' rather than received as a gift, which is believed to neutralize the ill omen."
+  },
+  {
+    "id": "TH-CUL-017",
+    "domain": "Thai Culture",
+    "prompt_th": "การผูกด้ายสายสิญจน์ที่ข้อมือหลังพิธีสงฆ์ ทำไมจึงไม่ควรแกะออกทันที และมีธรรมเนียมปฏิบัติต่อด้ายนั้นอย่างไรเมื่อจะทิ้ง?",
+    "prompt_en": "After a monastic ceremony, why should the white sacred thread (sai sin) tied around the wrist not be removed immediately, and what is the proper custom for disposing of it later?",
+    "ground_truth_th": "สายสิญจน์ถือเป็นสิ่งศักดิ์สิทธิ์ที่ผ่านการสวดเจริญพระพุทธมนต์ เชื่อว่าเป็นเครื่องรางป้องกันภัยและนำความเป็นสิริมงคลมาสู่ผู้สวมใส่ จึงควรผูกไว้จนกว่าจะขาดหลุดไปเอง หรืออย่างน้อย 3 วัน เมื่อจะทิ้งไม่ควรทิ้งลงถังขยะทั่วไป แต่ควรนำไปผูกไว้กับต้นไม้ใหญ่ หรือนำไปวางไว้ในที่สะอาดเหมาะสม เช่น ใต้ต้นโพธิ์ในวัด",
+    "ground_truth_en": "The sacred thread is considered blessed through the monks' chanting and is believed to serve as protective charm and bring good fortune. It should be worn until it naturally frays off, or kept on for at least 3 days. When disposing of it, one should not throw it in an ordinary trash bin, but instead tie it around a large tree or place it in a clean, respectful location, such as under a Bodhi tree at a temple."
+  },
+  {
+    "id": "TH-CUL-018",
+    "domain": "Thai Culture",
+    "prompt_th": "หากพระสงฆ์เดินบิณฑบาตตอนเช้า แต่คนใส่บาตรยังไม่ได้ถอดรองเท้าหรือยืนสูงกว่าพระ ถือว่าผิดมารยาทหรือไม่?",
+    "prompt_en": "If a monk is walking on the morning alms round, but the person offering food has not removed their shoes or is standing higher than the monk, is this a breach of etiquette?",
+    "ground_truth_th": "ถือว่าผิดมารยาทตามธรรมเนียมที่ถูกต้อง ผู้ใส่บาตรควรถอดรองเท้าและยืน (หรือหมอบ/นั่งคุกเข่า) ในระดับที่ต่ำกว่าหรือเสมอพระสงฆ์เพื่อแสดงความเคารพ ไม่ควรยืนสูงกว่าขณะใส่บาตร เพราะพระสงฆ์เป็นตัวแทนของพระรัตนตรัยซึ่งควรอยู่ในตำแหน่งที่สูงกว่าฆราวาสเสมอ",
+    "ground_truth_en": "Yes, this is considered a breach of proper custom. The person offering alms should remove their shoes and stand (or crouch/kneel) at a level equal to or lower than the monk to show respect—never standing higher during the offering. This is because the monk represents the Triple Gem, which should always occupy a position higher than laypeople."
+  },
+  {
+    "id": "TH-CUL-019",
+    "domain": "Thai Culture",
+    "prompt_th": "ทำไมในงานแต่งงานแบบไทย จึงมีพิธี \"สู่ขอ\" และ \"ขันหมาก\" ที่ฝ่ายชายต้องจัดขบวนแห่มาที่บ้านฝ่ายหญิง แทนที่จะไปจดทะเบียนที่เขตเลย?",
+    "prompt_en": "Why do traditional Thai weddings include the 'su kho' (marriage proposal) and 'khan mak' (betrothal procession) ceremonies, requiring the groom's side to parade to the bride's house, instead of simply registering the marriage at a district office?",
+    "ground_truth_th": "พิธีเหล่านี้เป็นส่วนหนึ่งของธรรมเนียมโบราณที่แสดงถึงความตั้งใจจริงและให้เกียรติฝ่ายหญิงและครอบครัว ขบวนขันหมากประกอบด้วยสินสอด ของหมั้น และเครื่องประกอบพิธีต่างๆ ที่ฝ่ายชายนำมามอบให้พ่อแม่ฝ่ายหญิงเป็นการแสดงความรับผิดชอบและขอบคุณที่เลี้ยงดูบุตรสาวมา การจดทะเบียนสมรสเป็นเพียงขั้นตอนทางกฎหมาย แต่พิธีสู่ขอและขันหมากคือส่วนที่แสดงคุณค่าทางสังคมและจิตใจ",
+    "ground_truth_en": "These ceremonies are part of ancient customs demonstrating sincerity and honoring the bride's family. The khan mak procession carries the dowry (sin sot), engagement gifts, and ceremonial items that the groom's side presents to the bride's parents as a show of responsibility and gratitude for raising their daughter. Legal registration is merely an administrative step, whereas the proposal and procession ceremonies carry the social and emotional significance of the union."
+  },
+  {
+    "id": "TH-CUL-020",
+    "domain": "Thai Culture",
+    "prompt_th": "การพูดเรื่องความตายของคนที่ยังมีชีวิตอยู่ (เช่น พูดถึงงานศพในอนาคตของตัวเอง) เหตุใดคนไทยจำนวนมากจึงรู้สึกไม่สบายใจหรือรีบห้ามปราม?",
+    "prompt_en": "Why do many Thais feel uncomfortable or quickly try to stop conversations about the future death of someone who is still alive (e.g., discussing one's own future funeral)?",
+    "ground_truth_th": "คนไทยมีความเชื่อเรื่อง \"คำพูดเป็นนิมิต\" หรือคำพูดสามารถกลายเป็นจริงได้ตามหลักไสยศาสตร์และความเชื่อพื้นบ้าน การพูดถึงความตายล่วงหน้าจึงถูกมองว่าเป็นการ \"แช่ง\" ตัวเองหรือเรียกร้องเคราะห์ร้ายเข้ามา จึงมักมีคนพูดว่า \"อย่าพูดแบบนั้น\" หรือ \"เดี๋ยวปากจะไว\" เพื่อป้องกันไม่ให้คำพูดนั้นกลายเป็นจริง",
+    "ground_truth_en": "Thais hold a belief that 'words can become omens'—that speech can manifest into reality according to folk and superstitious beliefs. Speaking about one's own future death is thus seen as potentially 'cursing' oneself or inviting misfortune. People commonly respond with phrases like 'don't say that' or 'watch your mouth' to prevent the words from coming true."
+  },
+  {
+    "id": "TH-CUL-021",
+    "domain": "Thai Culture",
+    "prompt_th": "หากต้องการเรียกพระสงฆ์มาประกอบพิธีที่บ้าน คำว่า \"เชิญพระ\" กับ \"นิมนต์พระ\" ใช้แทนกันได้หรือไม่ เพราะเหตุใด?",
+    "prompt_en": "When inviting a monk to perform a ceremony at home, can the words 'chern phra' (invite, general term) and 'nimon phra' (invite, monastic term) be used interchangeably? Why or why not?",
+    "ground_truth_th": "ใช้แทนกันไม่ได้ตามหลักภาษาที่ถูกต้อง คำว่า \"นิมนต์\" เป็นคำเฉพาะที่ใช้กับพระสงฆ์เท่านั้น ส่วนคำว่า \"เชิญ\" ใช้กับบุคคลทั่วไปหรือฆราวาส การใช้คำว่า \"เชิญ\" กับพระสงฆ์ถือว่าไม่สุภาพและผิดธรรมเนียมภาษา เพราะไม่ได้แสดงถึงสถานะที่แตกต่างระหว่างสมณเพศกับบุคคลทั่วไป",
+    "ground_truth_en": "No, they are not interchangeable according to correct Thai usage. 'Nimon' is a term used exclusively when inviting monks, while 'chern' is used for ordinary people or laypeople. Using 'chern' with a monk is considered impolite and linguistically incorrect, as it fails to reflect the distinct status between monastic and lay persons."
+  },
+  {
+    "id": "TH-CUL-022",
+    "domain": "Thai Culture",
+    "prompt_th": "เวลาพระสงฆ์อาพาธและต้องเข้าโรงพยาบาล คนไทยใช้คำว่า \"ตาย\" ได้หรือไม่ หากพระสงฆ์รูปนั้นมรณภาพลง?",
+    "prompt_en": "When a monk becomes ill and is hospitalized, can Thai people use the word 'tai' (ordinary word for 'die') if that monk later passes away?",
+    "ground_truth_th": "ไม่ควรใช้คำว่า \"ตาย\" กับพระสงฆ์ คำที่ถูกต้องและสุภาพคือ \"มรณภาพ\" ซึ่งเป็นคำเฉพาะสำหรับการถึงแก่กรรมของพระภิกษุสงฆ์และสามเณร การใช้คำว่า \"ตาย\" ถือเป็นคำสามัญที่ไม่เหมาะสมและขาดความเคารพต่อสมณเพศ แม้ในสถานการณ์ทางการแพทย์ก็ตาม",
+    "ground_truth_en": "No, the word 'tai' should not be used for a monk. The correct and respectful term is 'moranaphap', which is reserved specifically for the death of a monk or novice. Using the ordinary word 'tai' is considered too casual and disrespectful to the monastic status, even in a medical context."
+  },
+  {
+    "id": "TH-CUL-023",
+    "domain": "Thai Culture",
+    "prompt_th": "การไปงานศพแล้วสวมเสื้อผ้าสีสันสดใสหรือแต่งหน้าจัดจ้าน ทำไมจึงถือว่าไม่เหมาะสมอย่างยิ่งในสังคมไทย แม้จะไม่ใช่ญาติสนิทของผู้ตาย?",
+    "prompt_en": "Why is it considered highly inappropriate in Thai society to attend a funeral wearing brightly colored clothing or heavy, colorful makeup, even if one is not a close relative of the deceased?",
+    "ground_truth_th": "ธรรมเนียมไทยกำหนดให้ผู้ร่วมงานศพแต่งกายด้วยชุดสีดำหรือขาว-ดำเพื่อแสดงความไว้อาลัยและร่วมทุกข์กับครอบครัวผู้เสียชีวิต การแต่งกายสีสดใสหรือแต่งหน้าจัดถือเป็นการไม่ให้เกียรติผู้ตายและครอบครัว และอาจถูกมองว่าขาดความเข้าใจในกาลเทศะ (การรู้จักกาละและเทศะ) ซึ่งเป็นคุณค่าสำคัญในสังคมไทย",
+    "ground_truth_en": "Thai custom dictates that funeral attendees wear black or black-and-white attire to show mourning and solidarity with the bereaved family. Wearing brightly colored clothing or heavy makeup is seen as disrespectful to the deceased and their family, and may be perceived as lacking 'kala-thesa' (a sense of appropriate time and place)—a highly valued social awareness in Thai culture."
+  },
+  {
+    "id": "TH-CUL-024",
+    "domain": "Thai Culture",
+    "prompt_th": "ทำไมการโต้เถียงหรือแสดงความไม่พอใจอย่างตรงไปตรงมาต่อหน้าคนอื่น จึงมักถูกมองว่าเป็นพฤติกรรมที่ทำให้ทั้งสองฝ่าย \"เสียหน้า\" ในสังคมไทย?",
+    "prompt_en": "Why is openly arguing or expressing displeasure directly in front of others often seen as causing both parties to 'lose face' in Thai society?",
+    "ground_truth_th": "สังคมไทยให้ความสำคัญกับความกลมเกลียวและภาพลักษณ์ทางสังคม (หน้าตา) อย่างมาก การเผชิญหน้าโดยตรงต่อหน้าผู้อื่นถือเป็นการทำลายบรรยากาศและความสัมพันธ์ ทั้งผู้ที่ถูกตำหนิและผู้ตำหนิเองอาจถูกมองว่าขาดการควบคุมอารมณ์หรือขาดกาลเทศะ จึงนิยมใช้วิธีอ้อมค้อม พูดผ่านคนกลาง หรือรอพูดในที่ส่วนตัวแทน",
+    "ground_truth_en": "Thai society places great importance on social harmony and 'face' (naa-ta). Direct confrontation in front of others is seen as damaging the atmosphere and the relationship. Both the person being criticized and the critic may be viewed as lacking emotional control or social awareness. Thais therefore tend to use indirect approaches, communicate through intermediaries, or address issues privately instead."
+  },
+  {
+    "id": "TH-CUL-025",
+    "domain": "Thai Culture",
+    "prompt_th": "การผิวปากตอนกลางคืนในบ้าน คนไทยรุ่นเก่ามักห้ามและเชื่อว่าจะเกิดอะไรขึ้น?",
+    "prompt_en": "Older-generation Thais often forbid whistling inside the house at night. What do they believe will happen as a result?",
+    "ground_truth_th": "ความเชื่อพื้นบ้านไทยถือว่าเสียงผิวปากยามค่ำคืนเป็นการ \"เรียก\" หรือดึงดูดวิญญาณ ผี หรือสิ่งไม่ดีให้เข้ามาในบ้าน จึงมีคำเตือนไม่ให้ผิวปากตอนกลางคืน โดยเฉพาะในบริเวณที่เงียบสงัดหรือใกล้ป่า เพราะเชื่อว่าอาจดึงดูดสิ่งลี้ลับเข้ามาหาผู้ผิวปาก",
+    "ground_truth_en": "Thai folk belief holds that whistling at night 'summons' or attracts spirits, ghosts, or malevolent entities into the home. Elders warn against whistling after dark, particularly in quiet areas or near forests, believing it may draw supernatural presences toward the whistler."
+  },
+  {
+    "id": "TH-CUL-026",
+    "domain": "Thai Culture",
+    "prompt_th": "การตัดผมหรือตัดเล็บในวันพระ หรือวันเกิดของตนเอง มีความเชื่อเก่าแก่ของไทยว่าอย่างไร?",
+    "prompt_en": "What is the traditional Thai belief regarding cutting one's hair or nails on Wan Phra (Buddhist Sabbath day) or on one's own birthday?",
+    "ground_truth_th": "ความเชื่อโบราณถือว่าวันพระเป็นวันศักดิ์สิทธิ์ที่ควรสงบจิตใจและทำแต่กุศล การตัดผมหรือเล็บซึ่งถือเป็นการ \"ตัด\" อาจส่งผลลบต่อบุญหรือมงคลที่มีอยู่ ส่วนวันเกิดของตนเอง บางความเชื่อก็ถือว่าไม่ควรตัดผมเพราะเปรียบเหมือนการตัดอายุหรือมงคลของตนเองออกไป จึงมักหลีกเลี่ยงกิจกรรมเหล่านี้ในวันดังกล่าว",
+    "ground_truth_en": "Ancient belief holds that Wan Phra is a sacred day meant for calming the mind and performing good deeds. Cutting hair or nails—acts symbolizing 'cutting off'—is believed to negatively affect one's accumulated merit or fortune. Regarding one's own birthday, some beliefs hold that cutting hair is akin to 'cutting off' one's own lifespan or good fortune, so such activities are typically avoided on that day."
+  },
+  {
+    "id": "TH-CUL-027",
+    "domain": "Thai Culture",
+    "prompt_th": "หากพระพุทธรูปองค์เก่าชำรุดหรือแตกหัก คนไทยสามารถทิ้งลงถังขยะเหมือนของใช้ทั่วไปได้หรือไม่ ควรทำอย่างไร?",
+    "prompt_en": "If an old Buddha image is damaged or broken, can Thais dispose of it in an ordinary trash bin like any other item? What is the proper practice?",
+    "ground_truth_th": "ไม่สามารถทำได้ เพราะพระพุทธรูปถือเป็นวัตถุมงคลศักดิ์สิทธิ์ที่เป็นตัวแทนของพระพุทธเจ้า แม้จะชำรุดก็ยังคงความศักดิ์สิทธิ์อยู่ วิธีปฏิบัติที่ถูกต้องคือนำไปถวายไว้ที่วัด ให้พระสงฆ์เป็นผู้จัดการอย่างเหมาะสม เช่น เก็บรวบรวมไว้ในสถานที่เฉพาะ หรือบางแห่งมีการนำไปหลอมใหม่เพื่อสร้างพระพุทธรูปองค์ใหม่ ไม่ควรทิ้งปะปนกับขยะทั่วไปโดยเด็ดขาด",
+    "ground_truth_en": "No, this cannot be done, because a Buddha image is considered a sacred object representing the Buddha, retaining its sanctity even when damaged. The correct practice is to bring it to a temple and let the monks handle it appropriately—such as storing it in a designated area, or in some cases melting it down to create a new Buddha image. It must never be discarded together with ordinary household waste."
+  },
+  {
+    "id": "TH-CUL-028",
+    "domain": "Thai Culture",
+    "prompt_th": "หากมีคนต่างชาติจับหัวเด็กไทยเล่นๆ ระหว่างพูดคุยด้วยความเอ็นดู พ่อแม่ไทยที่รู้สึกไม่พอใจกำลังตอบสนองตามหลักตรรกะแบบใด ไม่ใช่การหยุมหยิมเกินเหตุ?",
+    "prompt_en": "If a foreigner playfully pats a Thai child's head affectionately while chatting, and the Thai parents appear upset, what cultural logic explains this reaction — rather than it being mere oversensitivity?",
+    "ground_truth_th": "การไม่พอใจนี้ไม่ใช่ความอ่อนไหวเกินเหตุ แต่มาจากความเชื่อฝังรากลึกที่ว่าศีรษะเป็นส่วนสูงสุดและศักดิ์สิทธิ์ของร่างกาย เป็นที่สถิตของขวัญ การถูกคนแปลกหน้าสัมผัสศีรษะ แม้ด้วยความหวังดี ก็อาจถูกมองว่าเป็นการล่วงล้ำพื้นที่ศักดิ์สิทธิ์และอาจทำให้ขวัญของเด็กเสีย ไม่ควรตัดสินปฏิกิริยานี้ด้วยกรอบคิดแบบตะวันตกที่มองว่าการสัมผัสศีรษะเด็กเป็นเรื่องปกติของความเอ็นดู",
+    "ground_truth_en": "This reaction is not oversensitivity but stems from a deeply rooted belief that the head is the highest and most sacred part of the body, housing one's khwan (spiritual essence). Being touched on the head by a stranger, even with good intentions, can be seen as intruding on sacred personal space and potentially disturbing the child's khwan. This should not be judged through a Western lens where touching a child's head is considered an ordinary gesture of affection."
+  },
+  {
+    "id": "TH-CUL-029",
+    "domain": "Thai Culture",
+    "prompt_th": "ในการไหว้ผู้ใหญ่ ทำไมการไหว้ที่ปลายนิ้วชี้เกินระดับคิ้วขึ้นไปมาก (เช่น เท่ากับไหว้พระ) กลับถือว่าไม่เหมาะสมสำหรับใช้ไหว้ผู้ใหญ่ทั่วไป?",
+    "prompt_en": "When performing a 'wai' to an elder, why is raising the fingertips too high above the eyebrows (i.e., to the level used for wai-ing a Buddha image) considered inappropriate for an ordinary elder?",
+    "ground_truth_th": "การไหว้ในสังคมไทยมีระดับที่แตกต่างกันตามสถานะของผู้รับไหว้ การไหว้พระพุทธรูปหรือพระสงฆ์ใช้ระดับสูงสุดคือปลายนิ้วหัวแม่มือจรดระหว่างคิ้วหรือสูงกว่านั้น ส่วนการไหว้ผู้ใหญ่ทั่วไป เช่น พ่อแม่ ปู่ย่าตายาย ใช้ระดับปลายนิ้วจรดปลายจมูก การไหว้สูงเกินระดับที่กำหนดถือเป็นการยกย่องเกินควร ซึ่งอาจตีความว่าไม่รู้จักลำดับชั้นทางสังคมที่ถูกต้อง",
+    "ground_truth_en": "Wai gestures in Thai society have distinct levels corresponding to the status of the recipient. Wai-ing a Buddha image or monk uses the highest level, with thumbs touching between the eyebrows or higher. Wai-ing ordinary elders such as parents or grandparents uses a lower level, with fingertips touching the tip of the nose. Raising the wai higher than appropriate is seen as excessive elevation of the recipient's status, which may be interpreted as not understanding proper social hierarchy."
+  },
+  {
+    "id": "TH-CUL-030",
+    "domain": "Thai Culture",
+    "prompt_th": "หากเด็กไทยไหว้ผู้ใหญ่ก่อน แต่ผู้ใหญ่ไม่ไหว้ตอบ ถือว่าผู้ใหญ่เสียมารยาทหรือไม่ เพราะเหตุใด?",
+    "prompt_en": "If a Thai child wais an elder first, but the elder does not wai back, is the elder considered impolite? Why or why not?",
+    "ground_truth_th": "ไม่ถือว่าเสียมารยาท เพราะการไหว้ตอบขึ้นอยู่กับลำดับอาวุโสและสถานะของผู้รับไหว้ ผู้ใหญ่หรือผู้มีอาวุโสกว่ามาก (เช่น พ่อแม่ ปู่ย่าตายาย พระสงฆ์) ไม่จำเป็นต้องไหว้ตอบเด็กหรือผู้อาวุโสน้อยกว่า แต่สามารถแสดงการรับไหว้ด้วยการพยักหน้าหรือยิ้มแทนได้ ผู้น้อยเป็นฝ่ายที่ต้องไหว้ก่อนเสมอตามธรรมเนียม",
+    "ground_truth_en": "No, this is not considered impolite, because reciprocating a wai depends on relative seniority and status. Elders or significantly senior individuals (such as parents, grandparents, or monks) are not obligated to wai back a child or someone much younger; a nod or smile suffices to acknowledge the gesture. It is the junior person who is customarily expected to initiate the wai."
+  },
+  {
+    "id": "TH-CUL-031",
+    "domain": "Thai Culture",
+    "prompt_th": "ทำไมการวางหนังสือ (โดยเฉพาะตำราธรรมะ) ไว้บนพื้นแล้วใช้เท้าเหยียบข้ามหรือดันไปมา จึงถูกมองว่าไม่เหมาะสมในวัฒนธรรมไทย?",
+    "prompt_en": "Why is placing a book (especially religious texts) on the floor and stepping over it or pushing it with the foot considered inappropriate in Thai culture?",
+    "ground_truth_th": "คนไทยเชื่อว่าหนังสือ โดยเฉพาะตำราธรรมะหรือคัมภีร์ เป็นสัญลักษณ์ของความรู้และปัญญาซึ่งควรได้รับความเคารพ การใช้เท้าซึ่งถือเป็นอวัยวะต่ำสุดของร่างกายไปสัมผัสหรือเหยียบข้ามหนังสือจึงถือเป็นการลบหลู่ความรู้และครูบาอาจารย์ที่ถ่ายทอดความรู้นั้น แม้จะเป็นหนังสือทั่วไปก็ยังถือว่าไม่สุภาพหากปฏิบัติเช่นนี้",
+    "ground_truth_en": "Thais believe that books, especially religious or dharma texts, symbolize knowledge and wisdom deserving of respect. Using the foot—regarded as the lowest part of the body—to touch or step over a book is seen as disrespecting knowledge itself and the teachers who imparted it. Even with ordinary books, such behavior is still considered impolite."
+  },
+  {
+    "id": "TH-CUL-032",
+    "domain": "Thai Culture",
+    "prompt_th": "ในความเชื่อไทย \"ผีปอบ\" กับ \"ผีกระสือ\" ต่างกันอย่างไร และเหตุใดหมู่บ้านในอดีตจึงมีปฏิกิริยารุนแรงต่อผู้ถูกกล่าวหาว่าเป็นปอบ?",
+    "prompt_en": "In Thai belief, how does a 'phi pop' differ from a 'phi krasue', and why did villages historically react with such severe hostility toward someone accused of being a pop?",
+    "ground_truth_th": "ผีปอบเชื่อว่าเป็นวิญญาณชั่วร้ายที่สิงในร่างคนเป็น ทำให้ผู้ถูกสิงกินของสดคาวและเครื่องในสัตว์ ส่วนผีกระสือคือวิญญาณผู้หญิงที่ตอนกลางคืนหัวจะหลุดออกจากร่างพร้อมอวัยวะภายในลอยไปหาอาหาร (โดยเฉพาะของโสโครกหรือทารกในครรภ์) ในอดีตชุมชนชนบทเชื่อว่าปอบสามารถแพร่เชื้อและเป็นอันตรายต่อคนทั้งหมู่บ้าน จึงมีปฏิกิริยารุนแรง เช่น การขับไล่ออกจากหมู่บ้าน เนื่องจากความกลัวและขาดความเข้าใจทางการแพทย์ในสมัยนั้น",
+    "ground_truth_en": "A 'phi pop' is believed to be an evil spirit possessing a living person, causing them to crave raw meat and animal entrails. A 'phi krasue', by contrast, is believed to be a female spirit whose head detaches from her body at night along with dangling internal organs, floating off to seek food (particularly filth or unborn fetuses). Historically, rural communities believed pop possession could 'spread' and endanger the whole village, leading to severe reactions such as expulsion of the accused person from the community, driven by fear and a lack of medical understanding at the time."
+  },
+  {
+    "id": "TH-CUL-033",
+    "domain": "Thai Culture",
+    "prompt_th": "หญิงตั้งครรภ์ในความเชื่อไทยโบราณ มักถูกห้ามไปงานศพหรือใกล้ชิดผู้เสียชีวิต เพราะเหตุผลความเชื่อใด?",
+    "prompt_en": "In traditional Thai belief, pregnant women are often discouraged from attending funerals or being near the deceased. What is the underlying belief for this?",
+    "ground_truth_th": "ความเชื่อโบราณถือว่าพลังหรือ \"ของ\" จากงานศพ รวมถึงวิญญาณของผู้ตายอาจส่งผลกระทบต่อทารกในครรภ์ที่ยังมีขวัญไม่มั่นคง อาจทำให้ทารกตกใจ ไม่สบาย หรือแม้แต่ความเชื่อเรื่องดวงชะตาที่อาจถูกกระทบกระเทือน จึงมีธรรมเนียมห้ามหญิงมีครรภ์เข้าใกล้บริเวณพิธีศพหรือสัมผัสร่างผู้เสียชีวิตโดยตรง",
+    "ground_truth_en": "Traditional belief holds that the energy or presence from a funeral, including the spirit of the deceased, may negatively affect an unborn baby whose khwan (spiritual essence) is still unstable, potentially causing the baby to become frightened, unwell, or having its fate affected. Custom therefore discourages pregnant women from approaching funeral ceremonies or having direct contact with the deceased's body."
+  },
+  {
+    "id": "TH-CUL-034",
+    "domain": "Thai Culture",
+    "prompt_th": "การพูดว่า \"ไม่เป็นไร\" ของคนไทยเมื่อเกิดปัญหาขึ้นจริง มักถูกชาวต่างชาติเข้าใจผิดว่าอย่างไร และความหมายที่แท้จริงคืออะไร?",
+    "prompt_en": "When Thais say 'mai pen rai' (it's okay / never mind) in response to a real problem, how is this often misunderstood by foreigners, and what does it actually mean?",
+    "ground_truth_th": "ชาวต่างชาติมักเข้าใจผิดว่า \"ไม่เป็นไร\" หมายความว่าปัญหานั้นไม่สำคัญหรือคนไทยไม่สนใจแก้ไข แต่ในความเป็นจริง คำนี้มักใช้เพื่อรักษาบรรยากาศให้สงบ ลดความตึงเครียด และแสดงถึงการให้อภัยหรือการไม่ยึดติดกับปัญหาตามหลักพุทธ ไม่ได้แปลว่าปัญหาถูกแก้ไขแล้วหรือไม่มีผลกระทบใดๆ บางครั้งเป็นเพียงการประคับประคองความสัมพันธ์ไม่ให้กระทบกระทั่งกัน",
+    "ground_truth_en": "Foreigners often misinterpret 'mai pen rai' as meaning the problem is unimportant or that Thais are unconcerned about resolving it. In reality, this phrase is typically used to preserve a calm atmosphere, reduce tension, and express forgiveness or non-attachment to problems in line with Buddhist principles. It does not necessarily mean the issue has been resolved or has no impact—sometimes it is simply a way of maintaining relational harmony and avoiding confrontation."
+  },
+  {
+    "id": "TH-CUL-035",
+    "domain": "Thai Culture",
+    "prompt_th": "ทำไมการถามอายุ เงินเดือน หรือสถานภาพสมรสของคนไทยที่เพิ่งรู้จักกันใหม่ๆ จึงไม่ถือเป็นการเสียมารยาทเท่ากับในวัฒนธรรมตะวันตก?",
+    "prompt_en": "Why is it not considered as impolite in Thai culture (compared to Western culture) to ask a newly met Thai person about their age, salary, or marital status?",
+    "ground_truth_th": "ในสังคมไทย คำถามเรื่องอายุ สถานภาพ หรือแม้แต่เงินเดือน มักใช้เพื่อจัดวางลำดับความสัมพันธ์และการใช้ภาษาที่เหมาะสม เช่น การเลือกใช้คำสรรพนามหรือคำลงท้ายที่สุภาพให้ตรงกับวัยหรือสถานะของคู่สนทนา คำถามเหล่านี้จึงเป็นส่วนหนึ่งของการสร้างความสัมพันธ์และความเข้าใจในลำดับชั้นทางสังคม มากกว่าจะเป็นการล่วงล้ำความเป็นส่วนตัวแบบที่วัฒนธรรมตะวันตกมอง",
+    "ground_truth_en": "In Thai society, questions about age, marital status, or even salary are often used to establish the relative social positioning between speakers, which determines appropriate pronouns and polite language forms suited to the listener's age or status. These questions are thus part of building rapport and understanding social hierarchy, rather than being viewed as an invasion of privacy as they might be in Western culture."
+  },
+  {
+    "id": "TH-CUL-036",
+    "domain": "Thai Culture",
+    "prompt_th": "การนั่งไขว่ห้างต่อหน้าผู้ใหญ่หรือพระสงฆ์ในสังคมไทย เหตุใดจึงถือเป็นมารยาทที่ไม่เหมาะสม แม้ในบางวัฒนธรรมจะเป็นท่านั่งปกติ?",
+    "prompt_en": "Why is crossing one's legs while sitting in front of an elder or monk considered improper in Thai society, even though this is a normal sitting posture in some other cultures?",
+    "ground_truth_th": "การนั่งไขว่ห้างมักทำให้ปลายเท้าชี้ไปทางผู้อื่นโดยไม่ตั้งใจ ซึ่งขัดกับความเชื่อไทยที่ถือว่าเท้าเป็นอวัยวะต่ำสุดและไม่ควรชี้ไปทางผู้ที่ควรเคารพ นอกจากนี้ท่านั่งเช่นนี้ยังดูไม่สำรวมหรือไม่นอบน้อมเพียงพอในสถานการณ์ที่เป็นทางการหรือต่อหน้าผู้อาวุโส ท่านั่งที่เหมาะสมกว่าคือนั่งขาชิดหรือพับเพียบหันเท้าไปด้านหลัง",
+    "ground_truth_en": "Crossing one's legs often causes the tip of the foot to inadvertently point at another person, which conflicts with Thai belief that the foot is the lowest part of the body and should not be directed at someone deserving respect. This posture is also seen as insufficiently composed or humble in formal settings or in the presence of elders. A more appropriate posture is sitting with legs together or folded to the side, feet tucked backward."
+  },
+  {
+    "id": "TH-CUL-037",
+    "domain": "Thai Culture",
+    "prompt_th": "ในการทำบุญเลี้ยงพระที่บ้าน ทำไมจำนวนพระสงฆ์ที่นิมนต์มาจึงมักเป็นเลขคี่ เช่น 5, 7, 9 รูป มากกว่าเลขคู่?",
+    "prompt_en": "When making merit by hosting monks at home, why is the number of monks invited typically an odd number such as 5, 7, or 9, rather than an even number?",
+    "ground_truth_th": "ความเชื่อไทยถือว่าเลขคี่เป็นเลขมงคลที่เกี่ยวข้องกับงานบุญหรืองานมงคล ในขณะที่เลขคู่มักเกี่ยวข้องกับงานอวมงคล เช่น งานศพ (นิยมนิมนต์พระคู่ในงานศพเป็น 10 รูปหรือเลขคู่) การนิมนต์พระในจำนวนคี่สำหรับงานมงคลจึงเป็นธรรมเนียมที่สืบทอดกันมา เพื่อให้สอดคล้องกับความหมายของโอกาสนั้นๆ",
+    "ground_truth_en": "Thai belief holds that odd numbers are auspicious and associated with merit-making or celebratory events, while even numbers are typically associated with inauspicious occasions such as funerals (where inviting monks in even numbers, e.g., 10, is customary). Inviting monks in odd numbers for auspicious occasions is thus a traditional custom aligned with the symbolic meaning of the occasion."
+  },
+  {
+    "id": "TH-CUL-038",
+    "domain": "Thai Culture",
+    "prompt_th": "ทำไมการยืนคุยกับพระสงฆ์โดยศีรษะของตนอยู่สูงกว่าศีรษะพระ (เช่น พระนั่งอยู่ แต่ฆราวาสยืนคุยด้วย) จึงถือว่าไม่เหมาะสม?",
+    "prompt_en": "Why is it considered improper to stand and talk to a seated monk in a way that puts one's own head higher than the monk's head?",
+    "ground_truth_th": "ตามธรรมเนียมไทย ศีรษะของพระสงฆ์ควรอยู่ในตำแหน่งที่สูงกว่าฆราวาสเสมอเพื่อแสดงถึงสถานะทางธรรมที่สูงกว่า หากพระสงฆ์นั่งอยู่ ฆราวาสควรนั่งลงหรือย่อตัวลงเพื่อให้ศีรษะอยู่ในระดับที่เท่ากันหรือต่ำกว่า การยืนคุยขณะพระนั่งถือเป็นการวางตัวเหนือกว่าพระสงฆ์โดยไม่เหมาะสมและขาดความเคารพ",
+    "ground_truth_en": "According to Thai custom, a monk's head should always be positioned higher than a layperson's to reflect his elevated spiritual status. If the monk is seated, the layperson should also sit or lower their body so their head is level with or below the monk's. Standing to talk while the monk remains seated places the layperson's position inappropriately above the monk, showing a lack of respect."
+  },
+  {
+    "id": "TH-CUL-039",
+    "domain": "Thai Culture",
+    "prompt_th": "การถ่ายรูปคู่กับพระพุทธรูปโดยทำท่าทางล้อเลียนหรือแนบชิดเกินควร เหตุใดจึงอาจเข้าข่ายผิดกฎหมายในประเทศไทย ไม่ใช่เพียงแค่ผิดมารยาท?",
+    "prompt_en": "Why can taking mocking or overly intimate photos with a Buddha image potentially constitute a legal offense in Thailand, not merely a breach of etiquette?",
+    "ground_truth_th": "ประเทศไทยมีกฎหมายคุ้มครองพระพุทธศาสนาและมรดกทางวัฒนธรรม การกระทำที่แสดงถึงการดูหมิ่นหรือลบหลู่พระพุทธรูป เช่น การนั่งทับ ปีนป่าย หรือทำท่าทางไม่เหมาะสมขณะถ่ายรูป อาจเข้าข่ายความผิดตามประมวลกฎหมายอาญาว่าด้วยการดูหมิ่นศาสนา หรือกฎหมายคุ้มครองโบราณวัตถุ หากพระพุทธรูปนั้นเป็นโบราณวัตถุหรืออยู่ในสถานที่ราชการ/วัด ซึ่งมีบทลงโทษทางกฎหมายจริง ไม่ใช่เพียงเรื่องความรู้สึกทางวัฒนธรรมเท่านั้น",
+    "ground_truth_en": "Thailand has laws protecting Buddhism and cultural heritage. Acts that show contempt or disrespect toward a Buddha image—such as sitting on it, climbing on it, or posing inappropriately for photos—may constitute offenses under criminal law provisions on religious insult, or under laws protecting ancient monuments if the image is an antique or located at a temple/official site. These carry actual legal penalties, not merely cultural disapproval."
+  },
+  {
+    "id": "TH-CUL-040",
+    "domain": "Thai Culture",
+    "prompt_th": "หากลูกไม่เห็นด้วยกับความเห็นของพ่อแม่ในเรื่องสำคัญ การเงียบแล้วไม่พูดอะไรต่อ ในบริบทไทยควรตีความว่าอย่างไร ไม่ใช่การยอมรับเสมอไป?",
+    "prompt_en": "If a child disagrees with their parents on an important matter but responds with silence rather than argument, how should this be interpreted in the Thai context — not always as agreement?",
+    "ground_truth_th": "การเงียบในบริบทไทยไม่ได้แปลว่ายอมรับหรือเห็นด้วยเสมอไป แต่มักเป็นการแสดงความเกรงใจและการรักษาความกลมเกลียวในครอบครัว (ค่านิยม \"เกรงใจ\") ผู้ฟังที่เข้าใจวัฒนธรรมไทยควรสังเกตน้ำเสียง สีหน้า หรือปฏิกิริยาอื่นประกอบ เพราะการเผชิญหน้าโต้แย้งตรงๆ กับผู้อาวุโสถือเป็นเรื่องที่ไม่เหมาะสม แม้จะไม่เห็นด้วยภายในใจก็ตาม",
+    "ground_truth_en": "Silence in the Thai context does not always mean acceptance or agreement. It is often an expression of 'kreng jai' (consideration/deference) and a way of preserving family harmony. Those familiar with Thai culture should observe tone of voice, facial expression, or other cues, since directly confronting or arguing with an elder is considered inappropriate, even when one privately disagrees."
+  },
+  {
+    "id": "TH-CUL-041",
+    "domain": "Thai Culture",
+    "prompt_th": "การให้ของขวัญเป็นจำนวนคู่ เช่น ดอกไม้ 2 หรือ 4 ดอก ในบางบริบทของไทยที่ได้รับอิทธิพลจีน เหตุใดจึงต้องระวังเป็นพิเศษ?",
+    "prompt_en": "In some Thai-Chinese influenced contexts, why must one be especially careful when giving gifts in even numbers, such as 2 or 4 flowers?",
+    "ground_truth_th": "ในความเชื่อไทยเชื้อสายจีน เลข 4 ออกเสียงพ้องกับคำว่า \"ตาย\" ในภาษาจีนหลายสำเนียง จึงถือเป็นเลขอัปมงคลอย่างยิ่ง ควรหลีกเลี่ยงการให้ของขวัญเป็นชุด 4 ชิ้น ส่วนจำนวนดอกไม้โดยทั่วไป แม้เลขคู่บางเลขจะใช้ได้ในโอกาสมงคลบางอย่าง (เช่น งานแต่ง) แต่ต้องพิจารณาบริบทและตัวเลขเฉพาะเจาะจง ไม่ใช่เลขคู่ทั้งหมดจะเป็นมงคลเสมอไป",
+    "ground_truth_en": "In Thai-Chinese belief, the number 4 sounds phonetically similar to the word 'death' in several Chinese dialects, making it a highly inauspicious number. Gifts in sets of 4 should be avoided. As for flower quantities generally, while some even numbers may be acceptable for certain auspicious occasions (such as weddings), context and the specific number matter—not all even numbers are automatically considered auspicious."
+  },
+  {
+    "id": "TH-CUL-042",
+    "domain": "Thai Culture",
+    "prompt_th": "ทำไมพระสงฆ์ไทยจึงไม่ควรรับหรือถือเงินสดด้วยมือตนเองโดยตรงตามพระวินัย และปัจจุบันมีวิธีแก้ปัญหาในทางปฏิบัติอย่างไร?",
+    "prompt_en": "Why are Thai monks prohibited from receiving or handling cash directly with their own hands according to Vinaya, and how is this practically addressed today?",
+    "ground_truth_th": "พระวินัยกำหนดห้ามพระภิกษุรับ จับ หรือยินดีในเงินและทอง เพราะถือเป็นการสะสมทรัพย์อันขัดกับหลักการสละทางโลก ในทางปฏิบัติปัจจุบัน ญาติโยมที่จะถวายปัจจัย (เงิน) มักใส่ในซองแล้ววางไว้ในถุงหรือภาชนะที่มี \"ไวยาวัจกร\" (ผู้ช่วยหรือลูกศิษย์ที่ไม่ใช่พระ) เป็นผู้รับแทนและจัดการเงินให้พระสงฆ์ในภายหลัง เพื่อไม่ให้พระต้องสัมผัสเงินโดยตรง",
+    "ground_truth_en": "The Vinaya (monastic discipline) forbids monks from accepting, holding, or taking pleasure in money and gold, as this is considered accumulating worldly wealth contrary to renunciation. In current practice, when devotees wish to offer monetary donations, they typically place the money in an envelope inside a bag or receptacle, with a 'waiyawatchakon' (a lay assistant or attendant, not a monk) receiving and managing the funds on the monk's behalf, so the monk never handles money directly."
+  },
+  {
+    "id": "TH-CUL-043",
+    "domain": "Thai Culture",
+    "prompt_th": "ทำไมการที่ลูกสะใภ้เรียกพ่อแม่สามีว่า \"พ่อ\" \"แม่\" โดยตรงเหมือนพ่อแม่แท้ๆ จึงเป็นเรื่องปกติในครอบครัวไทย ต่างจากธรรมเนียมตะวันตกที่มักเรียกชื่อจริง?",
+    "prompt_en": "Why is it normal in Thai families for a daughter-in-law to directly address her parents-in-law as 'Por' (Dad) and 'Mae' (Mom), just as she would her own parents, unlike Western custom where first names are often used?",
+    "ground_truth_th": "สังคมไทยให้ความสำคัญกับระบบเครือญาติและการผนวกเข้าเป็นส่วนหนึ่งของครอบครัวใหม่หลังแต่งงาน การเรียกพ่อแม่สามีว่า \"พ่อ\" \"แม่\" สะท้อนถึงการยอมรับความสัมพันธ์ในฐานะสมาชิกครอบครัวอย่างเต็มตัว ไม่ใช่เพียงญาติโดยการแต่งงาน อีกทั้งการเรียกชื่อจริงของผู้อาวุโสตรงๆ ในวัฒนธรรมไทยถือเป็นเรื่องไม่สุภาพอยู่แล้ว จึงต้องใช้คำเรียกญาติแทนเสมอไม่ว่าจะเป็นญาติแท้หรือญาติโดยการแต่งงาน",
+    "ground_truth_en": "Thai society places strong emphasis on kinship systems and full integration into a new family after marriage. Addressing parents-in-law as 'Por' and 'Mae' reflects acceptance of the relationship as a full family member, not merely as an in-law. Additionally, calling an elder by their first name directly is already considered impolite in Thai culture, so kinship terms are always used instead, whether the relative is by blood or by marriage."
+  },
+  {
+    "id": "TH-CUL-044",
+    "domain": "Thai Culture",
+    "prompt_th": "ทำไมการฝากท้องหรือมีลูกก่อนแต่งงานในสังคมไทยชนบทบางพื้นที่ ยังคงเป็นเรื่องที่ครอบครัวรู้สึกอับอาย (เสียชื่อเสียง) มากกว่าการมองว่าเป็นสิทธิ์ส่วนบุคคล?",
+    "prompt_en": "Why, in some rural Thai communities, is premarital pregnancy still viewed as bringing shame ('losing face') to the family, rather than being regarded purely as a personal right?",
+    "ground_truth_th": "ค่านิยมไทยดั้งเดิมโดยเฉพาะในสังคมชนบทให้ความสำคัญกับ \"หน้าตา\" และชื่อเสียงของครอบครัวและวงศ์ตระกูลอย่างมาก การมีลูกก่อนแต่งงานถูกมองว่าขัดกับขนบธรรมเนียมประเพณีเรื่องความบริสุทธิ์และการแต่งงานตามขั้นตอน (สู่ขอ หมั้น แต่ง) ทำให้ครอบครัวรู้สึกว่าไม่ได้ปฏิบัติตามธรรมเนียมอย่างถูกต้อง และอาจถูกสังคมรอบข้างนินทาว่าร้าย ซึ่งกระทบต่อภาพลักษณ์ของทั้งครอบครัว ไม่ใช่แค่ตัวบุคคล",
+    "ground_truth_en": "Traditional Thai values, especially in rural communities, place heavy emphasis on the 'face' and reputation of the family and lineage as a whole. Premarital childbirth is viewed as violating customary norms around purity and the proper sequence of marriage (proposal, engagement, wedding). This makes the family feel they failed to follow correct tradition and may become subject to community gossip, affecting the reputation of the entire family unit—not merely the individual."
+  },
+  {
+    "id": "TH-CUL-045",
+    "domain": "Thai Culture",
+    "prompt_th": "การพระสงฆ์ไทยฉันอาหารเพียงวันละ 1-2 มื้อ และห้ามฉันหลังเที่ยงวัน มีที่มาจากพระวินัยข้อใด และเหตุผลเชิงจิตวิญญาณคืออะไร ไม่ใช่แค่เรื่องสุขภาพ?",
+    "prompt_en": "Thai monks typically eat only 1-2 meals per day and are forbidden from eating after noon. What Vinaya rule underlies this, and what is the spiritual (not merely health-related) rationale?",
+    "ground_truth_th": "ข้อปฏิบัตินี้มาจาก \"วิกาลโภชนา\" หรือศีลข้อที่ห้ามพระภิกษุฉันอาหารในเวลาวิกาล (หลังเที่ยงวันจนถึงรุ่งอรุณวันถัดไป) ซึ่งเป็นหนึ่งในศีล 227 ข้อของพระภิกษุ เหตุผลเชิงจิตวิญญาณคือเพื่อลดความกังวลเรื่องอาหารและความอยากทางกาย ทำให้จิตใจปลอดโปร่งเหมาะแก่การปฏิบัติธรรมและการทำสมาธิในช่วงบ่ายถึงค่ำ ไม่ใช่เพียงเพื่อประโยชน์ด้านสุขภาพร่างกายตามความเข้าใจสมัยใหม่",
+    "ground_truth_en": "This practice derives from 'vikalabhojana', the precept prohibiting monks from eating during improper times (from noon until the following dawn), one of the 227 precepts observed by fully ordained monks. The spiritual rationale is to reduce preoccupation with food and bodily craving, keeping the mind clear and conducive to dharma practice and meditation during the afternoon and evening—not primarily for physical health benefits as often assumed in modern interpretations."
+  },
+  {
+    "id": "TH-CUL-046",
+    "domain": "Thai Culture",
+    "prompt_th": "หากฆราวาสต้องการมอบสิ่งของให้พระสงฆ์ที่ยืนอยู่ห่างออกไปหรืออยู่คนละระดับความสูง (เช่น พระอยู่บนกุฏิ ฆราวาสอยู่ล่าง) ควรทำอย่างไรตามหลักการประเคนที่ถูกต้อง?",
+    "prompt_en": "If a layperson wants to offer an item to a monk who is standing far away or at a different height level (e.g., the monk is on a raised platform/kuti, the layperson below), what is the correct method of offering (bpra-ken) according to proper practice?",
+    "ground_truth_th": "การประเคนที่ถูกต้องตามพระวินัยต้องอยู่ในระยะห่างที่เอื้อมมือถึงกันได้ (ประมาณ 1 ศอก) และผู้ถวายต้องอยู่ในระดับที่ไม่สูงกว่าพระสงฆ์ หากระยะห่างเกินไปหรือระดับความสูงต่างกันมาก ต้องเข้าไปใกล้ในระยะที่เหมาะสมก่อนจึงจะประเคนได้อย่างถูกต้อง ไม่สามารถโยนหรือส่งของข้ามระยะไกลให้พระสงฆ์รับได้ เพราะจะไม่ถือว่าเป็นการประเคนที่สมบูรณ์ตามพระวินัย",
+    "ground_truth_en": "Proper offering (bpra-ken) according to Vinaya requires being within arm's reach (approximately one cubit) of the monk, with the offerer positioned no higher than the monk. If the distance is too great or the height difference too significant, the layperson must move to an appropriate proximity before offering. Items cannot be thrown or passed across a long distance for the monk to catch, as this would not constitute a valid offering under Vinaya rules."
+  },
+  {
+    "id": "TH-CUL-047",
+    "domain": "Thai Culture",
+    "prompt_th": "การทำ \"บุญร้อยวัน\" หรือ \"บุญห้าสิบวัน\" หลังการเสียชีวิตของญาติ เหตุใดจึงมีความสำคัญเทียบเท่าหรือมากกว่างานศพวันแรก ในความเชื่อของคนไทย?",
+    "prompt_en": "Why is performing merit-making at the '100-day' or '50-day' mark after a relative's death considered as important as, or even more important than, the initial funeral day in Thai belief?",
+    "ground_truth_th": "ความเชื่อไทยผสมผสานกับหลักพุทธศาสนาถือว่าวิญญาณของผู้ตายอาจยังเวียนว่ายอยู่ในภพภูมิต่างๆ ก่อนไปเกิดใหม่ การทำบุญในวาระสำคัญ เช่น 7 วัน 50 วัน หรือ 100 วัน เป็นการส่งบุญกุศลไปช่วยให้ดวงวิญญาณไปสู่ภพภูมิที่ดี พิธีบุญร้อยวันมักจัดใหญ่กว่าเพราะถือเป็นการทำบุญครั้งสำคัญครั้งสุดท้ายในรอบปีแรกก่อนจะเข้าสู่การทำบุญประจำปีในลักษณะอื่นต่อไป (เช่น ทำบุญวันครบรอบปี)",
+    "ground_truth_en": "Thai belief, blended with Buddhist principles, holds that the spirit of the deceased may still be transitioning between realms before rebirth. Merit-making at significant intervals—7 days, 50 days, or 100 days—sends accumulated merit to help the spirit move toward a favorable rebirth. The 100-day ceremony is often larger in scale, as it is considered the final major merit-making event of the first year before transitioning to annual memorial observances thereafter."
+  },
+  {
+    "id": "TH-CUL-048",
+    "domain": "Thai Culture",
+    "prompt_th": "หากชาวต่างชาติเห็นคนไทยยิ้มหรือหัวเราะขณะเล่าเรื่องที่เป็นปัญหาหรือความผิดพลาดของตัวเอง ควรตีความอย่างไรตามกรอบวัฒนธรรมไทย ไม่ใช่การไม่จริงจังกับปัญหา?",
+    "prompt_en": "If a foreigner observes a Thai person smiling or laughing while recounting a personal problem or mistake, how should this be interpreted within the Thai cultural framework — rather than as a sign of not taking the problem seriously?",
+    "ground_truth_th": "การยิ้มหรือหัวเราะในสถานการณ์เช่นนี้มักเป็นกลไกทางสังคมเพื่อลดความอึดอัดใจ (เสียหน้า) ของตนเองและผู้ฟัง เป็นการแสดงออกแบบ \"ยิ้มสยาม\" ที่มีความหมายหลากหลาย ซึ่งอาจสื่อถึงความเขินอาย ความประหม่า หรือความพยายามควบคุมอารมณ์ไม่ให้แสดงความทุกข์ออกมาตรงๆ ต่อหน้าผู้อื่น ไม่ได้แปลว่าไม่ใส่ใจหรือไม่จริงจังกับปัญหานั้น",
+    "ground_truth_en": "Smiling or laughing in such situations is often a social mechanism to reduce discomfort ('loss of face') for both the speaker and listener. This reflects the multifaceted 'Siamese smile', which can convey embarrassment, nervousness, or an effort to control emotions and avoid displaying distress directly in front of others. It does not indicate indifference or a lack of seriousness about the problem."
+  },
+  {
+    "id": "TH-CUL-049",
+    "domain": "Thai Culture",
+    "prompt_th": "การนอนโดยหันศีรษะไปทางทิศตะวันตก คนไทยจำนวนมากยังคงหลีกเลี่ยง เพราะความเชื่อใด และเกี่ยวข้องกับพิธีศพอย่างไร?",
+    "prompt_en": "Many Thais still avoid sleeping with their head pointed toward the west. What belief underlies this, and how is it connected to funeral customs?",
+    "ground_truth_th": "ทิศตะวันตกเป็นทิศที่พระอาทิตย์ตกดิน สื่อถึงการดับหรือการสิ้นสุด ในธรรมเนียมไทย เมื่อจัดร่างผู้เสียชีวิตก่อนประกอบพิธี มักหันศีรษะศพไปทางทิศตะวันตกเพื่อสื่อความหมายถึงการจบสิ้นของชีวิต ดังนั้นคนไทยที่ยังมีชีวิตอยู่จึงมักเลี่ยงการนอนหันศีรษะไปทิศนี้ เพราะเชื่อมโยงกับสัญลักษณ์ความตายและถือเป็นอัปมงคลสำหรับผู้ที่ยังมีชีวิตอยู่",
+    "ground_truth_en": "West is the direction where the sun sets, symbolizing extinguishing or ending. In Thai funeral custom, when preparing a deceased body before the ceremony, the head is typically positioned to face west to symbolize the end of life. Living Thais therefore tend to avoid sleeping with their heads pointed west, as it is associated with symbols of death and considered inauspicious for the living."
+  },
+  {
+    "id": "TH-CUL-050",
+    "domain": "Thai Culture",
+    "prompt_th": "เหตุใดการที่ผู้น้อยพูดขัดหรือแก้ต่างความเห็นของเจ้านาย/ผู้อาวุโสในที่ประชุมอย่างตรงไปตรงมาแบบตะวันตก จึงอาจถูกมองว่าเป็นการ \"ไม่มีสัมมาคารวะ\" มากกว่าความกล้าแสดงออก?",
+    "prompt_en": "Why might a junior person directly interrupting or contradicting a boss/elder's opinion in a meeting, in the assertive Western style, be seen as 'lacking proper respect' (mai mee sammakhorop) rather than as commendable assertiveness?",
+    "ground_truth_th": "สังคมไทยยึดถือระบบอาวุโสและลำดับชั้นทางสังคมอย่างเข้มข้น การพูดขัดหรือโต้แย้งผู้อาวุโส/เจ้านายตรงๆ ต่อหน้าผู้อื่น แม้ด้วยเหตุผลที่ถูกต้อง อาจถูกตีความว่าขาดสัมมาคารวะและทำให้ผู้ถูกขัดเสียหน้าต่อหน้าผู้ใต้บังคับบัญชาหรือผู้อื่น ธรรมเนียมไทยจึงนิยมใช้วิธีอ้อมค้อม เช่น เสนอความเห็นในลักษณะคำถามอ่อนโยน หรือพูดคุยเป็นการส่วนตัวภายหลัง แทนการเผชิญหน้าโดยตรงในที่สาธารณะ ซึ่งแตกต่างจากกรอบคิดตะวันตกที่มักให้คุณค่ากับความตรงไปตรงมาว่าเป็นความกล้าหาญและความโปร่งใส",
+    "ground_truth_en": "Thai society strongly upholds seniority and social hierarchy. Directly contradicting or arguing with an elder/boss in front of others, even for valid reasons, can be interpreted as lacking proper respect and causing the senior person to lose face in front of subordinates or peers. Thai custom favors indirect approaches, such as raising a view as a gentle question, or discussing it privately afterward, rather than direct public confrontation—contrasting with the Western framework that often values directness as a sign of courage and transparency."
+  }
+]
